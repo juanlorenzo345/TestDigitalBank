@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ac382a34-36f0-4ad1-a3dd-6a39b43bcc40" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62730/WSUserService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSUserService.wsdl" MetadataType="Wsdl" ID="a1f93d87-fb07-4609-9c2e-79120c6d419e" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?wsdl" />
+    <MetadataFile FileName="WSUserService1.xsd" MetadataType="Schema" ID="76a3ed72-b4e4-4524-8903-98ea833eadac" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WSUserService3.xsd" MetadataType="Schema" ID="14516062-9246-4872-8e58-ea141d25ce86" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?xsd=xsd3" />
+    <MetadataFile FileName="WSUserService.xsd" MetadataType="Schema" ID="da780332-5deb-4744-9931-67403b656014" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WSUserService2.xsd" MetadataType="Schema" ID="19ccb877-1cb1-4f04-a97d-ede2f097d382" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WSUserService.disco" MetadataType="Disco" ID="ba12bfe5-3234-4f1d-8f9c-0aac015c5431" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?disco" />
+    <MetadataFile FileName="WSUserService4.xsd" MetadataType="Schema" ID="2f33554a-f367-4b58-b4d0-c65bc841dd4d" SourceId="1" SourceUrl="http://localhost:62730/WSUserService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

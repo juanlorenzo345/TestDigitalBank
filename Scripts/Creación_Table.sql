@@ -1,0 +1,24 @@
+IF EXISTS(SELECT * FROM sys.tables WHERE SCHEMA_NAME(schema_id) LIKE 'dbo' AND name like 'Usuarios')  
+		   DROP TABLE [dbo].[Usuarios];
+		GO
+			
+
+/****** Object:  Table [dbo].[Usuarios]    Script Date: 16/01/2023 3:29:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Usuarios](
+	[id] [INT] IDENTITY(1,1) NOT NULL,
+	[nombre] VARCHAR(100) NOT NULL,
+	[fechaNacimiento] DATETIME NOT NULL,
+	[sexo] CHAR(1) NOT NULL,
+
+ CONSTRAINT [PK_Usuarios_1] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
